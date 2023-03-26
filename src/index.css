@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Amatic+SC&family=Courier+Prime&family=Fira+Mono&family=Inconsolata&family=Pacifico&family=Permanent+Marker&family=Special+Elite&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.data-bg {
+    background-image: linear-gradient(0deg, #cbd5e0 0.5px, transparent 0.5px);
+    background-size: 1.75rem 1.75rem;
+    background-position: 2rem -1.7rem;
+  }
+
+  .card {
+    transition: transform 300ms ease-in-out;
+  }
